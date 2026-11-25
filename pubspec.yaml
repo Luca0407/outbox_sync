@@ -1,0 +1,14 @@
+name: outbox_sync
+description: >-
+  A small, dependency-free outbox for offline-first Dart and Flutter apps:
+  durable pending changes, version-checked writes that turn concurrent edits
+  into conflicts instead of silent overwrites, idempotent retries and backoff.
+version: 0.1.0
+repository: https://github.com/Luca0407/outbox_sync
+
+environment:
+  sdk: ^3.5.0
+
+dev_dependencies:
+  lints: ^5.0.0
+  test: ^1.25.0
